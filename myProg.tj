@@ -1,0 +1,40 @@
+/* 05210000275 Mustafa Şahin 05210000948 Simge Cengiz */
+new int myInt;
+new int int2;
+new text myText;
+new text text2;
+new text deneme;
+new text text3;
+new text overText;
+new text convertInt;
+new text readFrom;
+new text writeFile;
+new text inputText;
+new text deneme;
+writeFile := "DenemeYazisi";
+convertInt := "60";
+overText := "Simge";
+myText := "hello";
+text2 := "world";
+text3 := myText + text2;
+deneme := "Hello world";
+output(deneme);
+output text3;
+/* output text2; */
+myInt := 15;
+int2 := myInt - 5;
+output int2;
+int2 := myInt + myInt;
+output int2;
+size(text3);
+subs(text3,2,7);
+locate(text3,text2,0);
+override(myText,2,overText);
+asString(int2);
+/* Bu bir yorum satırıdır */
+asText(convertInt);
+write writeFile to myTextFile;
+read readFrom from myTextFile;
+output readFrom;
+input inputText prompt promptText;
+output inputText;
